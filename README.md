@@ -36,4 +36,4 @@ If you'd like to contribute to this project, feel free to fork the repository an
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-![Screenshot 1]([https://i.imgur.com/example_screenshot_1.png](https://github.com/MohammedKhalidMahmoud/Bakery/blob/main/images/alexandru-stavrica.jpg))
+![Screenshot 1](https://github.com/MohammedKhalidMahmoud/Bakery/blob/main/images/alexandru-stavrica.jpg)
