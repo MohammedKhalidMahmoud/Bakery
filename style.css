@@ -59,7 +59,8 @@ body{
     background-position: center;
     background-size: cover;
     filter:blur(0.4px);
-    height:650px;
+    height:100vh;
+    
 }
 
 
@@ -84,8 +85,12 @@ body{
 .h-40{
     height:40px;
 }
-
-
+.h-80{
+    height:80px;
+}
+.translate-x-center{
+    transform: translate(-50%,-30%);
+}
 /* backgroud */
 .bg-c-gray{
     background-color: gray;
@@ -295,12 +300,23 @@ p{
 .font-30{
     font-size: 30px;
 }
-
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font-light-gray{
+    color:gray;
+}
 .header-scrolled{
-    background-color: white;
+    background-color: white; 
+}
+*{
+    margin:0;
+    box-sizing: border-box;
 }
 .header-in-position{
-    
+    background-color: transparent;
 }
 .p-top-40{
     padding-top:40px;
@@ -354,7 +370,9 @@ h3{
 .right-0{
     right:0%;
 }
-
+.font-red{
+    color:red;
+}
 .z-nav{
     z-index:999;
 }

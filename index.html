@@ -15,41 +15,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <!-- Loading Scripts -->
-    <script src="script.js" defer></script>
+    
     <title>Bakery</title>
 </head>
 <body>
     
     <!-- <div class="arrow-circle b-r-circle fixed"></div> -->
-        <nav class="nav font-red fixed top-50 left-0 w-full z-nav"></nav>
-            <ul class="list-dots-remove"> 
-                <li class="r-float p-20 font-20 margin-r-30">Contact</li>
-                <li class="r-float p-20 font-20">Blog</li>
-                <li class="r-float p-20 font-20">Gallery</li>
-                <li class="r-float p-20 font-20">Our Offer</li>
-                <li class="r-float p-20 font-20">About</li>
-                <li class="r-float p-20 font-20 b-t-2 b-t-solid b-t-main">Home</li>
-                <img class="logo l-float p-10" src="./images/bakery-light-1.png" alt="Bakery-logo">
-                <div class="clear-fix"></div>
-            </ul>
-        </nav>
-    <div id="home" class="landing font-white">
-        
-        <!-- <div class="black-sheet w-full h-full absolute top-0 left-0 bg-c-black opacity-1"></div> -->
-        
-        <br><br><br><br>
-        <div class="landing-content center text-center w-80">
-            <h3 class="font-22  inline">Welcome to</h2><br>
-            <h2 class="font-40  inline-block">Family Bakery</h2><br>
-            <h3 class="text-center font-22 inline">We're the biggest, best equipped and most advanced Bakery in the
+    <nav class="nav "></nav>
+        <ul class="ll fixed top-0 left-0 z-nav list-dots-remove w-full"> 
+            <li class="sp r-float p-20 font-20 margin-r-30 font-white">Contact</li>
+            <li class="sp r-float p-20 font-20 font-white">Blog</li>
+            <li class="sp r-float p-20 font-20 font-white">Gallery</li>
+            <li class="sp r-float p-20 font-20 font-white">Our Offer</li>
+            <li class="sp r-float p-20 font-20 font-white">About</li>
+            <li class="sp r-float p-20 font-20 font-white b-t-2 b-t-solid b-t-main">Home</li>
+            <img class="logo l-float p-10" src="./images/bakery-light-1.png" alt="Bakery-logo">
+            <div class="clear-fix"></div>
+        </ul>
+    </nav>
+    <div id="home" class="landing bg-c-main relative ">
+         <!-- <div class="black-sheet w-full h-full  bg-c-black opacity-1"></div>  -->
+        <div class="translate-x-center absolute top-50 left-50 center text-center">
+            <h3 class="font-22 font-white inline">Welcome to</h2><br>
+            <h2 class="font-40 font-white inline-block">Family Bakery</h2><br>
+            <h3 class="text-center font-white font-22 inline">We're the biggest, best equipped and most advanced Bakery in the
                 greater Los Angeles area.</h3><br><br>
-        <button class="text-center bg-c-main font-white b-r-5 b-white  btn-border font-18 center p-20">Learn More</button>
+            <button class="text-center bg-c-main font-white b-r-5 b-white  btn-border font-18 center p-20">Learn More</button>
             <button class="text-center font-white bg-transparent b-white b-r-5 btn-border font-18 p-20">Contact Us</button>
+            <br><br><br><br><br><br>
+            <div class="bg-transparent w-40 h-80 border-w-2 b-r-50 border-w-10 center">
+                <div class="fading center w-20 h-20 b-r-circle bg-c-white"></div>
+            </div>
         </div>
         <br><br>
-        <div class="bg-transparent w-40 h-80 border-w-2 b-r-50 border-w-10 center">
-            <div class="fading center w-20 h-20 b-r-circle bg-c-white"></div>
-        </div>
+        
         <a href="#home" class="arrow-circle b-r-circle absolute border-w-2 w-35 h-35 fixed bg-c-gray">
             <i class="fa-solid fa-chevron-up font-24 arrow-circle inline-block w-20 h-20 center  "></i>
             <!-- <div class="font-40 arrow-circle b-r-circle absolute border-w-2 w-40 h-40 fixed bg-c-gray text-center">^</div> -->
@@ -276,15 +275,19 @@
         <p>Copyright 2017. All rights reserved.
 
         </p>
-        <a  class="hello" href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></span>
-        </a>
-        <a href="https://www.google.com"><img class="google-icon b-r-circle w-40 h-40 vertical-middle" src="./images/Icons/google.png" alt="Google-icon"></span>
-        </a>
-        <a href="https://www.linkedin.com"><img class="linkedin-icon b-r-circle w-40 h-40 vertical-middle" src="./images/Icons/linkedin.png" alt="Linkedin-icon"></span>
-        </a>
-        <a href="https://www.twitter.com"><img class="twitter-icon b-r-circle w-40 h-40 vertical-middle" src="./images/Icons/twitter.png" alt="Twitter-icon"></span>
-        </a>
-        <br><br>
-    </footer>
+        <div class="flex">
+            <a class="facebook-icon b-r-circle w-40 h-40" href="https://www.facebook.com"><i class="facebook-icon font-light-gray fa-brands fa-facebook-f font-20 margin-r-10"></i></span>
+            </a>
+            <a href="https://www.google.com"><img class="google-icon b-r-circle w-40 h-40" src="./images/Icons/google.png" alt="Google-icon"></span>
+            </a>
+            <a href="https://www.linkedin.com"><img class="linkedin-icon b-r-circle w-40 h-40" src="./images/Icons/linkedin.png" alt="Linkedin-icon"></span>
+            </a>
+            <a href="https://www.twitter.com"><img class="twitter-icon b-r-circle w-40 h-40 " src="./images/Icons/twitter.png" alt="Twitter-icon"></span>
+            </a>
+        </div>
+        
+  
+    </footer> 
+    <script src="script.js"></script>
 </body>
 </html>
