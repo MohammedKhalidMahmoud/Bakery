@@ -1,0 +1,381 @@
+/* not-affecting */
+:root{
+    --main-color:#8e7754;
+}
+.font-main{
+    color: var(--main-color);
+}
+.b-c-main{
+    border-color: var(--main-color);
+}
+.bg-c-main{
+    background-color: var(--main-color);
+}
+body{
+    margin:0;
+    padding:0; 
+    outline:0;
+}
+.w-full{
+    width:100%;
+}
+.h-full{
+    height:100%;
+}
+.bg-c-black{
+    background-color: black;
+}
+.opacity-5{
+    opacity:0.5;
+}
+.opacity-4{
+    opacity:0.4;
+}
+.opacity-6{
+    opacity:0.6;
+}
+.opacity-3{
+    opacity:0.3;
+}
+.opacity-2{
+    opacity:0.2;
+}
+.opacity-1{
+    opacity:0.1;
+}
+.opacity-7{
+    opacity:0.7;
+}
+.b-r-5{
+    border-radius:5px;
+}
+
+
+
+/* backgroud-image */
+.landing{
+    
+    background-image: url('./images/drew-coffman-1872.jpg');
+    background-position: center;
+    background-size: cover;
+    filter:blur(0.4px);
+    height:650px;
+}
+
+
+/* setting-width */
+.logo{
+    width:200px;  
+}
+
+/* centering */
+.text-center{
+    text-align:center;
+}
+.center{
+    margin:auto;
+}
+.vertical-middle{
+    vertical-align: middle;
+}
+.w-40{
+    width:40px;
+}
+.h-40{
+    height:40px;
+}
+
+
+/* backgroud */
+.bg-c-gray{
+    background-color: gray;
+}
+
+.list-dots-remove{
+    list-style-type: none;   
+}
+
+
+/* margins */
+.margin-auto{
+    margin:auto;
+}
+.margin-50{
+    margin:50px;
+}
+.margin-20{
+    margin:20px;
+}
+.margin-r-30{
+    margin-right:30px;
+}
+
+/* padding */
+.p-10{
+    padding:10px;
+}
+.p-20{
+    padding:20px;
+}
+
+/* float */
+.r-float{
+    float:right;
+}
+.l-float{
+    float:left;
+}
+.clear-fix{
+    clear:both;
+}
+
+/* border-radius */
+.b-r-10{
+    border-radius:10px;
+}
+.b-r-50{
+    border-radius:50px;
+}
+.b-r-circle{
+    border-radius:50%;
+}
+.inline-block{
+    display:inline-block;
+}
+
+/* border-color */
+.b-white{
+    border-color:white;
+}
+
+.bg-c-footer{
+    background-color: rgba(0,0,0,0.78);
+}
+.bg-transparent{
+    background-color: transparent;
+}
+.btn-border{
+    border:2px solid white;
+}
+.b-white{
+    border-color:white;
+}
+
+
+/* font-size */
+.font-17{
+    font-size:17px;
+}
+.font-18{
+    font-size:18px;
+}
+.font-20{
+    font-size:20px;
+}
+.font-22{
+    font-size: 22px;;
+}
+.font-24{
+    font-size: 24px;
+}
+.font-26{
+    font-size:26px;
+}
+.font-40{
+    font-size: 40px;
+}
+
+/* font-color */
+
+
+/* font-family */
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alegreya", serif;
+}
+p{
+    font-family: "Alegrya sans" , sans-serif;
+}
+
+
+
+
+
+.font-white{
+    color:white
+}
+.view-2-left img{
+   
+   width:100%;
+}
+.our-location{
+    background-color: lightgray;
+}
+
+.w-80{
+    width:60%;
+}
+/* display */
+.block{
+    display:block;
+}
+.inline{
+    display: inline;
+}
+
+/* percent */
+.img-percent{
+    width:80%;
+}
+.content-percent{
+    width:60%;
+}
+.half{
+    width:50%;
+}
+.third{
+    width:calc(100%/3);
+}
+.quarter{
+    width:25%;
+}
+
+
+.landing-content button{
+    height:70px;
+}
+
+.margin-r-10{
+    margin:10px;
+}
+
+.border-w-2{
+    border:2px solid white;
+}
+
+.b-t-2{
+    border-top-width:2px;
+}
+.b-t-main{
+    border-color:var(--main-color);
+}
+.b-t-solid{
+    border-top-style: solid;
+}
+.border-top{
+    border-top:2px solid gold;
+}
+.border-bottom{
+    border-bottom:1px solid black;
+}
+.h-80{
+    height:80px;
+}
+.h-20{
+    height:20px;
+}
+.w-20{
+    width:20px;
+}
+.bg-c-white{
+    background-color: white;
+}
+/* position */
+.fixed{
+    position:fixed;
+}
+.absolute{
+    position: absolute;
+}
+.margin-right-auto{
+    margin-right:auto;
+}
+.margin-left-auto{
+    margin-left:auto;
+}
+.font-30{
+    font-size: 30px;
+}
+
+.header-scrolled{
+    background-color: white;
+}
+.header-in-position{
+    
+}
+.p-top-40{
+    padding-top:40px;
+}
+.vertical-bottom{
+    vertical-align: bottom;
+}
+
+.padding-bottom{
+    padding-bottom:10px;
+}
+
+.special::after{
+    position:absolute;
+    content:'';
+    width:80px;
+    height:2px;
+    background-color: red;
+    top:0%;
+    left:0%;
+}
+
+.special{
+    position:relative;
+}
+
+.bg-c-lightgray{
+    background-color:lightgray;
+}
+
+.last-quarter{
+    background-image: url('./images/contact-details-map.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h3{
+    transform: translateX(-30px);
+}
+
+.top-0{
+    top:0;
+}
+.bottom-0{
+    bottom:0;
+}
+
+.left-0{
+    left:0;
+}
+.right-0{
+    right:0%;
+}
+
+.z-nav{
+    z-index:999;
+}
+
+.w-30{
+    width:30px;
+}
+.h-30{
+    height:30px;
+}
+.w-35{
+    width:35px;
+}
+.h-35{
+    height:35px;
+}
+
+
+.top-50{
+    top:50%;
+}
+.left-50{
+    left:50%;
+}
