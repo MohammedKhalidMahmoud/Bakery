@@ -229,7 +229,7 @@ p{
 
 /* percent */
 .img-percent{
-    width:80%;
+    width:100%;
 }
 .content-percent{
     width:60%;
@@ -311,8 +311,18 @@ p{
 .header-scrolled{
     background-color: white; 
 }
+.w-90-p{
+    width:90%;
+}
+.p-30{
+    padding:30px;
+}
+.p-40{
+    padding:40px;
+}
 *{
     margin:0;
+    padding:0;
     box-sizing: border-box;
 }
 .header-in-position{
