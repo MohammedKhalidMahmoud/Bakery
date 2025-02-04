@@ -1,5 +1,56 @@
 @media (min-width:950px){
-    .view-2 .w-full{
-        width:50%;
+     .view-2 .w-full,.our-location .w-full
+     {
+        width:calc(100%/2);
+    }
+    .contact-information .w-full{
+        width:calc(100%/2);
     }
 }
+@media (min-width:900px){
+     .our-baking .w-full
+     {
+        width:calc(100%/2);
+    }
+}
+@media (min-width:1200px){
+     .our-baking .w-full
+     {
+        width:calc(100%/3);
+    }
+}
+
+@media (min-width:700px){
+    .wrapper .w-full{
+        width:calc(100%/2);
+    }
+}
+@media (min-width:900px){
+    .wrapper .w-full{
+        width:calc(100%/3);
+    }
+}
+@media (min-width:1100px){
+    .wrapper .w-full{
+        width:calc(100%/4);
+    }
+    
+}
+
+@media (max-width:900px){
+    .footer-icon{
+        width:200px;
+    }
+}
+
+@media (min-width:900px){
+    .hero-content{
+        width:75%;
+    }
+}
+@media (min-width:1000px){
+    .hero-content{
+        width:65%;
+    }
+}
+
