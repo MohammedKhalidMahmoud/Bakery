@@ -1,10 +1,10 @@
-const list=document.querySelector(".ll");
-const icon=document.querySelector("ul .logo");
+const nav=document.querySelector(".nav");
+const icon=document.querySelector(".nav .logo");
 const tabs=document.querySelectorAll(".sp");
 
 window.addEventListener('scroll', function(){
     if(window.scrollY < 30){
-        list.style.backgroundColor="transparent";
+        nav.style.backgroundColor="transparent";
         icon.src="./images/bakery-light-1.png";
         tabs.forEach((hr)=>{
             hr.style.color="white";
@@ -12,9 +12,9 @@ window.addEventListener('scroll', function(){
         
         
     }
-    else if(this.window.scrollY>=30){
+    else if(window.scrollY>=30){
         console.log("scrolling");
-        list.style.backgroundColor="white";
+        nav.style.backgroundColor="white";
         icon.src="./images/bakery-color.png";
         tabs.forEach((hr)=>{
             hr.style.color="black";

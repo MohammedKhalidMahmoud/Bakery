@@ -12,11 +12,24 @@
     background-color: var(--main-color);
 }
 body{
-    margin:0;
-    padding:0; 
-    outline:0;
+ 
+        /* background-image: ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; */
+        background:url('./images/contact-details-map.png') cover center no-repeat;
+        margin:0;
+    /* padding:0; 
+    outline:0; */
+    height:100vh;
 }
 .w-full{
+    width:100%;
+}
+.w-full-2{
+    width:100%;
+}
+.w-full-4{
     width:100%;
 }
 .h-full{
@@ -90,6 +103,18 @@ body{
 }
 .translate-x-center{
     transform: translate(-50%,-30%);
+}
+.translate-y-10-p{
+    transform:translateY(10%);
+}
+.translate-y-20-p{
+    transform:translateY(20%);
+}
+.translate-y-30-p{
+    transform:translateY(30%);
+}
+.translate-y-40-p{
+    transform:translateY(40%);
 }
 /* backgroud */
 .bg-c-gray{
@@ -254,11 +279,26 @@ p{
 }
 
 .border-w-2{
-    border:2px solid white;
+    border:2px 
+}
+.border-c-white{
+    border-color:white;
+}
+.solid{
+    border-style:solid;
 }
 
 .b-t-2{
     border-top-width:2px;
+}
+.b-t-3{
+    border-top-width:3px;
+}
+.b-t-4{
+    border-top-width:4px;
+}
+.b-t-5{
+    border-top-width:5px;
 }
 .b-t-main{
     border-color:var(--main-color);
@@ -291,6 +331,19 @@ p{
 .absolute{
     position: absolute;
 }
+.static{
+    position:static;
+}
+.relative{
+    position:relative;
+}
+.sticky{
+    position:sticky;
+}
+
+.z-1{
+    z-index:1;
+}
 .margin-right-auto{
     margin-right:auto;
 }
@@ -307,9 +360,9 @@ p{
 .font-light-gray{
     color:gray;
 }
-.header-scrolled{
+/* .header-scrolled{
     background-color: white; 
-}
+} */
 .w-90-p{
     width:90%;
 }
@@ -359,22 +412,124 @@ p{
     background-color:lightgray;
 }
 
-.last-quarter{
-    background-image: url('./images/contact-details-map.png');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .top-0{
     top:0;
 }
+.top-10{
+    top:10%;
+}
+.top-20{
+    top:20%;
+}
+.top-30{
+    top:30%;
+}
+.top-40{
+    top:40%;
+}
+.top-50{
+    top:50%;
+}
+.top-60{
+    top:60%;
+}
+.top-70{
+    top:70%;
+}
+.top-80{
+    top:80%;
+}
+.top-85{
+    top:85%;
+}
+.top-90{
+    top:90%;
+}
+.top-95{
+    top:95%;
+}
+
+
 .bottom-0{
     bottom:0;
+}
+.bottom-10{
+    bottom:10%;
+}
+.bottom-20{
+    bottom:20%;
+}
+.bottom-30{
+    bottom:30%;
+}
+.bottom-40{
+    bottom:40%;
+}
+.bottom-50{
+    bottom:50%;
+}
+.bottom-60{
+    bottom:60%;
+}
+.bottom-70{
+    bottom:70%;
+}
+.bottom-80{
+    bottom:80%;
+}
+.bottom-85{
+    bottom:85%;
+}
+.bottom-90{
+    bottom:90%;
+}
+.bottom-95{
+    bottom:95%;
+}
+.bottom-100{
+    bottom:100%;
 }
 
 .left-0{
     left:0;
 }
+.left-10{
+    left:10%;
+}
+.left-20{
+    left:20%;
+}
+.left-30{
+    left:30%;
+}
+.left-40{
+    left:40%;
+}
+.left-50{
+    left:50%;
+}
+.left-60{
+    left:60%;
+}
+.left-70{
+    left:70%;
+}
+.left-80{
+    left:80%;
+}
+.left-85{
+    left:85%;
+}
+.left-90{
+    left:90%;
+}
+.left-95{
+    left:95%;
+}
+.left-100{
+    left:100%;
+}
+
 .right-0{
     right:0%;
 }
@@ -406,24 +561,36 @@ p{
     left:50%;
 }
 
-
+/* flex-direction */
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
+.flex-column-reverse{
+    flex-direction: column-reverse;
+}
 /* justify-content */
-.justify-conetent-flex-start{
+.justify-content-flex-start{
     justify-content:flex-start;
 }
-.justify-conetent-center{
+.justify-content-center{
     justify-content:center;
 }
-.justify-conetent-flex-end{
+.justify-content-flex-end{
     justify-content:flex-end;
 }
-.justify-conetent-space-between{
+.justify-content-space-between{
     justify-content:space-between;
 }
-.justify-conetent-space-around{
+.justify-content-space-around{
     justify-content:space-around;
 }
-.justify-conetent-space-evenly{
+.justify-content-space-evenly{
     justify-content:space-evenly;
 }
 
@@ -438,12 +605,24 @@ p{
 .align-items-flex-end{
     align-items:flex-end;
 }
-
-
+.decoration-none{
+    text-decoration: none;
+}
+.b-c-transparent{
+    border-color: transparent;
+}
+.hidden{
+    visibility:hidden;
+}
 .w-full-1{
     width:100%;
 }
-
+.w-full-vw{
+width:100vw;
+}
+.p-5{
+    padding:5px;
+}
 .p-20-p{
     padding:20%;
 }
@@ -458,4 +637,11 @@ p{
 }
 .p-2-p{
     padding:2%;
+}
+.p-1-p{
+    padding:1%;
+}
+
+.pointer{
+    cursor: pointer;
 }

@@ -17,24 +17,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <!-- Loading Scripts -->
     
+
     <title>Bakery</title>
 </head>
 <body>
+    <!-- <div class="font-40 arrow-circle b-r-circle absolute border-w-2 w-40 h-40 fixed bg-c-gray text-center">^</div> -->
     
-    <!-- <div class="arrow-circle b-r-circle fixed"></div> -->
-    <nav class="nav flex justify-conetent-space-between "></nav>
-        <ul class="ll fixed top-0 left-0 z-nav list-dots-remove w-full flex"> 
-            <img class="logo p-10" src="./images/bakery-light-1.png" alt="Bakery-logo">
-            <li class="sp p-20 font-20 font-white b-t-2 b-t-solid b-t-main">Home</li>
-            <li class="sp p-20 font-20 font-white">About</li>
-            <li class="sp p-20 font-20 font-white">Our Offer</li>
-            <li class="sp p-20 font-20 font-white">Gallery</li>
-            <li class="sp p-20 font-20 font-white">Blog</li>
-            <li class="sp p-20 font-20 margin-r-30 font-white">Contact</li>
-            
-            <div class="clear-fix"></div>
+    <!-- <a href="#home" class="bg-c-lightgray border-w-2 solid border-c-white w-40 h-40 b-r-circle fixed left-95 top-90 z-1 text-center">
+        <i class="fa-solid fa-chevron-up font-white font-24 arrow-circle w-20 h-20 "></i>
+    </a>
+    !-->
+    <div class="nav flex justify-content-space-between align-items-flex-start w-full-vw fixed top-0 left-0 z-nav "></nav>
+        <img class="logo p-5" src="./images/bakery-light-1.png" alt="Bakery-logo">
+        <ul class=" ll hidden  list-dots-remove  flex flex-column"> 
+            <li class="font-20 p-20 font-white b-t-3 b-t-solid b-t-main text-center">
+                <a class="decoration-none font-white" href="#Home">Home</a>
+            </li>
+            <li class="sp p-20 text-center font-20 font-white b-t-3 b-t-solid b-c-transparent">
+                <a class="decoration-none font-white" href="#About">About</a>
+            </li>
+            <li class="sp p-20 text-center font-20  font-white b-t-3 b-t-solid b-c-transparent">
+                <a class="decoration-none font-white" href="#Our-Offer">Our Offer</a>
+            </li>
+            <li class="sp p-20 text-center font-20  font-white b-t-3 b-t-solid b-c-transparent">
+                <a class="decoration-none font-white" href="#Gallery">Gallery</a>
+            </li>
+            <li class="sp p-20 text-center font-20  font-white b-t-3 b-t-solid b-c-transparent">
+                <a class="decoration-none font-white" href="#Blog">Blog</a>
+            </li>
+            <li class="sp p-20 text-center font-20  margin-r-30 font-white b-t-3 b-t-solid b-c-transparent">
+                <a class="decoration-none font-white" href="#Contact">Contact</a>
+            </li>
         </ul>
-    </nav>
+    </div> 
     <div id="home" class="landing bg-c-main relative ">
          <!-- <div class="black-sheet w-full h-full  bg-c-black opacity-1"></div>  -->
         <div class="hero-content translate-x-center absolute top-50 left-50 center text-center w-90-p">
@@ -44,27 +59,21 @@
                 greater Los Angeles area.</h3><br><br>
             <button class="text-center bg-c-main font-white b-r-5 b-white  btn-border font-18 center p-20">Learn More</button>
             <button class="text-center font-white bg-transparent b-white b-r-5 btn-border font-18 p-20">Contact Us</button>
-            <br><br><br><br><br><br>
+            <br><br><br><br>
             <div class="bg-transparent w-40 h-80 border-w-2 b-r-50 border-w-10 center">
                 <div class="fading center w-20 h-20 b-r-circle bg-c-white"></div>
             </div>
         </div>
-        <br><br>
-        
-        <a href="#home" class="arrow-circle b-r-circle absolute border-w-2 w-35 h-35 fixed bg-c-gray">
-            <i class="fa-solid fa-chevron-up font-24 arrow-circle inline-block w-20 h-20 center  "></i>
-            <!-- <div class="font-40 arrow-circle b-r-circle absolute border-w-2 w-40 h-40 fixed bg-c-gray text-center">^</div> -->
-        </a>
-        
+        <br><br> 
         
     </div>
     
     <div class="view-2 w-95-p margin-auto">
        <br><br><br>
-        <div class="w-full l-float text-center p-3-p">
+        <div class="w-full-2 l-float text-center p-3-p">
             <img src="./images/ben-garratt.jpg" class="img-percent " alt="ben-garratt.jpg">
         </div>
-        <div class="view-2-right w-full  l-float p-3-p ">
+        <div class="view-2-right w-full-2  l-float p-3-p ">
             <div class="content ">
                 <h2 class="font-26">Who we are?</h2>
             <p class="font-20"> We have been operating for over 30 years and
@@ -105,7 +114,7 @@
         <br>
         <br>
             <div class="container  w-95-p margin-auto ">
-                <div class="content-section  l-float w-full p-3-p">
+                <div class="content-section  l-float w-full-2 p-3-p">
                     <h2 class="font-24">Our Location</h2>
                     <p class="font-20">We have been operating for over 30 years and
                         are Members of The Federation of Master
@@ -118,8 +127,8 @@
                     </p>
                 </div>
                 <br><br>
-            <div class="w-full r-float text-center p-3-p">
-                <img class="w-full-1 our-baking-img" src="./images/full-2.jpg" alt="">
+            <div class="w-full-2 r-float text-center p-3-p">
+                <img class="w-full our-baking-img" src="./images/full-2.jpg" alt="">
             </div> 
         </div>
     
@@ -132,7 +141,7 @@
         <h2 class="font-24">Our Baking</h2>
         <p class="font-20">Learn more about them. We have worked truly hard to make them perfect for every use.</p>
         
-        <div class="w-full l-float text-center p-2-p " >
+        <div class="w-full-3 l-float text-center p-2-p " >
             <img class="img-percent block margin-left-auto" src="./images/ben-garratt.jpg" alt="ben-garratt">
             
             <h3>Superior Breads</h3>
@@ -143,7 +152,7 @@
                  commodo turpis et lacinia posuere.</p>
         </div>
         
-        <div class="w-full l-float text-center p-2-p">
+        <div class="w-full-3 l-float text-center p-2-p">
             <img class="img-percent" src="./images/stas-ovsky.jpg" alt="stas-ovsky">
             
             <h3>Bagels</h3>
@@ -152,7 +161,7 @@
                  commodo turpis et lacinia posuere.</p>
         </div>
         
-        <div class="w-full l-float margin-right-auto p-2-p ">
+        <div class="w-full-3 l-float margin-right-auto p-2-p ">
             <img class="img-percent block margin-right-auto" src="./images/clem-onojeghuo.jpg" alt="clem-onojeghuo">
             
             <h3 class="block margin-right-auto">Cookies</h3>
@@ -169,7 +178,7 @@
     <br><br>
     <div class="contact-information w-95-p margin-auto ">
         <br><br>
-        <div class="w-full p-2-p l-float">
+        <div class="w-full-2 p-2-p l-float">
             <h2>Contact Information</h2>
             <p>I am text block. Click edit button to change this text.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -200,7 +209,7 @@
         </div>
         </div>
         
-        <div class="w-full r-float text-center p-2-p">
+        <div class="w-full-2 r-float text-center p-2-p">
             <iframe class="w-full-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.0893825334742!2d29.94356057419821!3d31.218252962008762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c4948b7ff3eb%3A0xce733f8e35192c5b!2sSmouha%20Square!5e0!3m2!1sen!2seg!4v1737543964158!5m2!1sen!2seg" 
              height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -215,7 +224,7 @@
     <div class="about-us bg-c-gray">
         <br><br>
         <div class="wrapper w-95-p margin-auto">
-            <div class="w-full l-float ">
+            <div class="w-full-4 l-float ">
                 <div class="p-3-p">
                     <h3>About us</h3>
                     <p>I am text block. Click edit button to change 
@@ -228,31 +237,31 @@
                     </p>
                 </div>
             </div>
-            <div class="w-full l-float">
+            <div class="w-full-4 l-float">
                 
                 <div class="p-3-p">
                     <h3>Why we are special?</h3>
-                    <p class="border-bottom padding-bottom">> Our magical recipe.</p>
-                    <p class="border-bottom padding-bottom">> We care about environment.</p> 
-                    <p class="border-bottom padding-bottom">> We are trusted by hundreds of clients.</p>  
-                    <p class="border-bottom padding-bottom">> Social media loves us!</p>  
-                    <p class="border-bottom padding-bottom">> This list is super easy to create.</p> 
+                    <p class="border-bottom padding-bottom p-3-p">> Our magical recipe.</p>
+                    <p class="border-bottom padding-bottom p-3-p">> We care about environment.</p> 
+                    <p class="border-bottom padding-bottom p-3-p">> We are trusted by hundreds of clients.</p>  
+                    <p class="border-bottom padding-bottom p-3-p">> Social media loves us!</p>  
+                    <p class="border-bottom padding-bottom p-3-p">> This list is super easy to create.</p> 
                 </div>
             </div>
-            <div class="w-full l-float">
+            <div class="w-full-4 l-float">
                 <div class="p-3-p">
                     <h3>Opening Hours</h3>
-                    <p class="padding-bottom border-bottom">> Monday 10AM-9PM</p>   
-                    <p class="padding-bottom border-bottom">> Tuesday 10AM-9PM</p>   
-                    <p class="padding-bottom border-bottom">> Wednesday 10AM-9PM</p>   
-                    <p class="padding-bottom border-bottom">> Thrusday 10AM-9PM</p>   
-                    <p class="padding-bottom border-bottom">> Friday 10AM-9PM</p>
-                    <p class="padding-bottom border-bottom">> Weekends 10AM-9PM</p>
+                    <p class="padding-bottom border-bottom p-3-p">> Monday 10AM-9PM</p>   
+                    <p class="padding-bottom border-bottom p-3-p">> Tuesday 10AM-9PM</p>   
+                    <p class="padding-bottom border-bottom p-3-p">> Wednesday 10AM-9PM</p>   
+                    <p class="padding-bottom border-bottom p-3-p">> Thrusday 10AM-9PM</p>   
+                    <p class="padding-bottom border-bottom p-3-p">> Friday 10AM-9PM</p>
+                    <p class="padding-bottom border-bottom p-3-p">> Weekends 10AM-9PM</p>
                 </div>
                 
             </div>
             
-            <div class=" last-quarter w-full l-float">
+            <div class=" last-quarter w-full-4 l-float">
                 <div class="p-3-p">
                     <h3>Contact Details</h3>
                     <div class="wrapper">
@@ -286,9 +295,9 @@
         <p>Copyright 2017. All rights reserved.
 
         </p>
-        <div class="flex justify-conetent-center">
-            <a class="facebook-icon b-r-circle w-40 h-40" href="https://www.facebook.com"><i class="facebook-icon font-light-gray fa-brands fa-facebook-f font-20 margin-r-10"></i></span>
-            </a>
+        <div class="flex justify-content-center">
+            <!-- <a class="facebook-icon b-r-circle w-40 h-40" href="https://www.facebook.com"><i class="facebook-icon font-light-gray fa-brands fa-facebook-f font-20 margin-r-10"></i></span> -->
+            <!-- </a> -->
             <a href="https://www.google.com"><img class="google-icon b-r-circle w-40 h-40" src="./images/Icons/google.png" alt="Google-icon"></span>
             </a>
             <a href="https://www.linkedin.com"><img class="linkedin-icon b-r-circle w-40 h-40" src="./images/Icons/linkedin.png" alt="Linkedin-icon"></span>
@@ -299,6 +308,6 @@
         
   
     </footer> 
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>
