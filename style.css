@@ -702,3 +702,25 @@ width:100vw;
 .flex-wrap{
     flex-wrap: wrap;
 }
+
+.h-150{
+    height:150px;
+}
+.h-120{
+    height:120px;
+}
+.h-110{
+    height:110px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.w-28{
+    width:28px;
+}
+.h-28{
+    height:28px;
+}
