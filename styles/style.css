@@ -68,7 +68,7 @@ body{
 /* backgroud-image */
 .landing{
     
-    background-image: url('./images/drew-coffman-1872.jpg');
+    background-image: url('../images/drew-coffman-1872.jpg');
     background-position: center;
     background-size: cover;
     filter:blur(0.4px);
@@ -647,7 +647,13 @@ width:100vw;
 }
 
 .m-l-20{
-    margin-left:30px;
+    margin-left:20px;
+}
+.m-l-10{
+    margin-left:10px;
+}
+.m-l-15{
+    margin-left:15px;
 }
 
 .logo{

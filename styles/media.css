@@ -2,10 +2,7 @@
      .w-full-2,.w-full-3,.w-full-4{
         width:calc(100%/2);
      }
-     .flex-column{
-        flex-direction: row;
-        visibility:visible;
-     }
+     
      .landing h3{
         font-size:26px;
     }
